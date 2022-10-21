@@ -1,0 +1,899 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+      <!-- Basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+
+<meta property="og:locale" content="en_US">
+
+
+<meta name="geo.region" content="US-MD" />
+
+
+<title>AutomateWebsites.com - Website Backend Generator</title>	
+
+<meta name="description" content="">
+<meta name="author" content="">
+
+
+
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+<!-- Web Fonts  -->
+
+<!-- Vendor CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="vendor/animate.compat.css">
+<link rel="stylesheet" href="vendor/owl.carousel.min.css">
+<link rel="stylesheet" href="vendor/owl.theme.default.min.css">
+
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="vendor/theme.css">
+<link rel="stylesheet" href="vendor/theme-elements.css">
+
+
+<!-- Skin CSS -->
+<link  rel="stylesheet" href="vendor/default.css">
+
+
+<style>
+
+
+
+
+#getStarted{
+    width: 100%;
+
+    background-image: linear-gradient(rgba(0, 136, 204, 0.9) ,rgba(0, 136, 204, 0.9)) , url(d3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.thumb-info .thumb-info-title
+{
+    padding:6px 9px 2px;
+    bottom:4%;
+}
+
+.thumb-info .thumb-info-type 
+{
+    margin:8px -2px -7px 0px;
+}
+
+.pb-5 
+{
+    margin-bottom:0px !important;
+    padding-bottom:0px !important;
+}
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div
+{
+    padding: 10px;
+    border-radius: 3px;
+
+    display: inline-block;
+}
+
+#clockdiv div > span
+{
+    padding: 15px;
+    border-radius: 3px;
+    background: #006699;
+    display: inline-block;
+}
+
+.smalltext
+{
+padding-top: 5px;
+font-size: 16px;
+}
+
+div.section
+{
+    background:#f7f7f7;
+    border-top:5px solid #f1f1f1;
+    margin:30px 0;
+    padding:50px 0;
+}
+
+html div.section-primary 
+{
+    background-color:#0088CC !important;
+    border-color:#0077b3 !important;
+}
+
+
+.header-container .header-column  .header-row .header-nav .header-nav-main nav ul li #bb {
+    padding: 5px;
+}
+.header-container .header-column  .header-row .header-nav .header-nav-main nav ul li #bb div {
+    transition: all 0.3s ease 0s;
+
+    text-align: center;
+    padding: 5px 9px;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+.header-container .header-column  .header-row .header-nav .header-nav-main nav ul li #bb div:hover{
+    background-color: #2A99D1;
+    color: white;
+}
+
+</style>
+
+	</head>
+	<body data-plugin-page-transition>
+		<div class="body">
+
+			<header id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 120, 'stickyHeaderContainerHeight': 70}">
+
+  <div class="header-body border-color-primary header-body-bottom-border">
+
+    <div class="header-top header-top-default border-bottom-0">
+
+      <div class="container">
+
+        <div class="header-row py-2">
+
+          <div class="header-column justify-content-start">
+
+            <div class="header-row">
+
+              <nav class="header-nav-top">
+
+                <ul class="nav nav-pills text-uppercase text-2">
+
+                  <li class="nav-item nav-item-anim-icon d-none d-md-block">
+                    <a style="color:rgb(0, 154, 249); font-weight: bold;" class="nav-link ps-0" href="about_us.cfm"><i class="fas fa-angle-right"></i> About Us</a>
+                  </li>
+
+                  <li class="nav-item nav-item-anim-icon d-none d-md-block">
+                    <a style="color:rgb(0, 154, 249); font-weight: bold;" class="nav-link" href="contact_us.cfm"><i class="fas fa-angle-right"></i> Contact Us</a>
+                  </li>
+
+                </ul>
+
+              </nav>
+
+            </div>
+
+          </div>
+
+          <div class="header-column justify-content-end">
+
+            <div class="header-row">
+
+              <div class="fb-like" data-href="https://www.facebook.com/AutomateWebsitescom-106605272202973" data-width="" data-layout="button" data-action="like" data-size="large" data-share="true"></div>
+            
+              <a style="margin-left:5px;" class="btn btn-primary loginButton" href="/login.cfm" role="button"> Login </a>
+                
+              <a style="margin-left:5px;" class="btn btn-primary loginButton" href="/register.cfm" role="button"> Register </a>
+              
+            </div>
+  
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="header-container container">
+
+      <div class="header-row">
+
+        <div class="header-column">
+
+          <div class="header-row">
+
+            <div class="header-logo">
+
+              <a href="index.cfm">
+                <h3>Logo </h3>
+                
+               </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="header-column justify-content-end">
+
+          <div class="header-row">
+
+            <div class="header-nav header-nav-links order-2 order-lg-1">
+
+              <div class="header-nav-main header-nav-main-square header-nav-main-effect-2 header-nav-main-sub-effect-1">
+
+                <nav class="collapse">
+
+                  <ul class="nav nav-pills" id="mainNav">
+
+                    <li >
+                        <a id="bb" href="index.cfm">
+                            <div>Home</div>
+                        </a>
+
+                    </li>
+
+                    <li>
+                      <a id="bb" href="about_us.cfm">
+                        <div>About Us</div>
+                       </a>
+                    </li>
+
+                    <li>
+                      <a id="bb" href="how_it_works.cfm">
+                        <div>How It Works</div>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a id="bb" href="features.cfm">
+                        <div>Features</div>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a id="bb" href="faq.cfm">
+                        <div>FAQ</div>
+                      </a>
+                    </li>
+
+                    <li> 
+                      <a id="bb" href="demo.cfm">
+                        <div>Demo</div>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a id="bb" href="contact_us.cfm">
+                        <div>Contact Us</div>
+                      </a> 
+                    </li>
+
+                  </ul>
+
+                </nav>
+
+              </div>
+
+              <ul class="header-social-icons social-icons d-none d-sm-block">
+
+                <li class="social-icons-facebook">
+                  <a href="https://www.facebook.com/AutomateWebsitescom-106605272202973" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                </li>
+
+                <li class="social-icons-twitter">
+                  <a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                </li>
+
+                <li class="social-icons-linkedin">
+                  <a href="https://www.linkedin.com/in/seniorcoldfusiondeveloper/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+
+              </ul>
+
+              <button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
+                <i class="fas fa-bars"></i>
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</header>
+
+			<div role="main" class="main">
+
+                
+				<div class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-horizontal-center dots-light show-dots-hover show-dots-xs nav-inside nav-inside-plus nav-dark nav-md nav-font-size-md show-nav-hover mb-0" data-plugin-options="{'autoplayTimeout': 7000}" data-dynamic-height="['400px','400px','400px','400px','400px']" style="height: 400px;">
+					<div class="owl-stage-outer">
+						<div class="owl-stage">
+
+							<!-- Carousel Slide 1 -->
+							<div class="owl-item position-relative overlay overlay-color-primary overlay-show overlay-op-8" style="background-image: url(https://lib.automatewebsites.com/img/Porto/img/slides/123456.png); background-size: cover; background-position: center; height: 400px;">
+								<div class="container position-relative z-index-3 h-100">
+									<div class="row justify-content-center align-items-center h-100">
+										<div class="col-lg-6">
+											<div class="d-flex flex-column align-items-center">
+												<h3 class="position-relative text-color-light text-4 line-height-5 font-weight-medium px-4 mb-2 appear-animation" data-appear-animation="fadeInDownShorter" data-plugin-options="{'minWindowWidth': 0}">
+													<span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
+														<img src="https://lib.automatewebsites.com/img/Porto/img/slides/slide-title-border.png" class="w-auto appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
+													</span>
+													WEBSITE GENERATIONS ON SALE FOR ANOTHER
+													<span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3">
+														<img src="https://lib.automatewebsites.com/img/Porto/img/slides/slide-title-border.png" class="w-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
+													</span>
+
+                                                    
+												</h3>
+
+                                                <div id="clockdiv">
+                                                    <div>
+                                                      <span class="days"></span>
+                                                      <div class="smalltext">Days</div>
+                                                    </div>
+                                                    <div>
+                                                      <span class="hours"></span>
+                                                      <div class="smalltext">Hours</div>
+                                                    </div>
+                                                    <div>
+                                                      <span class="minutes"></span>
+                                                      <div class="smalltext">Minutes</div>
+                                                    </div>
+                                                    <div>
+                                                      <span class="seconds"></span>
+                                                      <div class="smalltext">Seconds</div>
+                                                    </div>
+                                                  </div>
+
+												<h1 class="text-color-light font-weight-extra-bold text-13 mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">75% OFF</h1>
+												<p class="text-4 text-color-light font-weight-light text-center mb-0" data-plugin-animated-letters data-plugin-options="{'startDelay': 2000, 'minWindowWidth': 0}">WITH PROMO CODE WEBGURU75</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Carousel Slide 2 -->
+							<div class="owl-item position-relative overlay overlay-color-primary overlay-show overlay-op-8" style="background-image: url(https://lib.automatewebsites.com/img/Porto/img/slides/slide-bg-7.jpg); background-size: cover; background-position: center; height: 400px;">
+								<div class="container position-relative z-index-3 h-100">
+									<div class="d-flex flex-column align-items-center justify-content-center h-100">
+										<h3 class="position-relative text-color-light text-5 line-height-5 font-weight-medium px-4 mb-2 appear-animation" data-appear-animation="fadeInDownShorter" data-plugin-options="{'minWindowWidth': 0}">
+											<span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
+												<img src="https://lib.automatewebsites.com/img/Porto/img/slides/slide-title-border.png" class="w-auto appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
+											</span>
+											DO YOU NEED A <span class="position-relative">NEW <span class="position-absolute left-50pct transform3dx-n50 top-0 mt-4"><img src="https://lib.automatewebsites.com/img/Porto/img/slides/slide-white-line.png" class="w-auto appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}" alt="" /></span></span>
+											<span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3">
+												<img src="https://lib.automatewebsites.com/img/Porto/img/slides/slide-title-border.png" class="w-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
+											</span>
+										</h3>
+										<h1 class="text-color-light font-weight-extra-bold text-13 mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">MOBILE-FRIENDLY WEBSITE?</h1>
+										<p class="text-4-5 text-color-light font-weight-light mb-0" data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Check out our options and features</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Carousel Slide 3 -->
+							<div class="owl-item position-relative overlay overlay-color-primary overlay-show overlay-op-8" style="background-image: url(https://lib.automatewebsites.com/img/Porto/img/slides/slide-bg-6.jpg); background-size: cover; background-position: center; height: 400px;">
+								<div class="container position-relative z-index-3 h-100">
+									<div class="row justify-content-center align-items-center h-100">
+										<div class="col-lg-6">
+											<div class="d-flex flex-column align-items-center">
+												<h3 class="position-relative text-color-light text-4 line-height-5 font-weight-medium px-4 mb-2 appear-animation" data-appear-animation="fadeInDownShorter" data-plugin-options="{'minWindowWidth': 0}">
+													<span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
+														<img src="https://lib.automatewebsites.com/img/Porto/img/slides/slide-title-border.png" class="w-auto appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
+													</span>
+													WE GENERATE WEBSITE FRONTENDS AND BACKENDS
+													<span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3">
+														<img src="https://lib.automatewebsites.com/img/Porto/img/slides/slide-title-border.png" class="w-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
+													</span>
+												</h3>
+												<h1 class="text-color-light font-weight-extra-bold text-13 mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">IN 10 MINUTES</h1>
+												<p class="text-4 text-color-light font-weight-light text-center mb-0" data-plugin-animated-letters data-plugin-options="{'startDelay': 2000, 'minWindowWidth': 0}">Save Thousands of Dollars and Development Time</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+						</div>
+					</div>
+					<div class="owl-dots mb-5">
+						<button class="owl-dot active"><span></span></button>
+						<button class="owl-dot"><span></span></button>
+                        <button class="owl-dot"><span></span></button>
+					</div>
+				</div>
+        
+
+				<div class="home-intro" id="home-intro">
+					<div class="container">
+
+						<div class="row align-items-center">
+							<div class="col-lg-8">
+								<p>
+									The fastest way to grow your business with the leader in <span class="highlighted-word text-color-primary font-weight-semibold text-5">Technology</span>
+									<span>Check out our options and features included.</span>
+								</p>
+							</div>
+							<div class="col-lg-4">
+								<div class="get-started text-start text-lg-end">
+									<a href="/register.cfm" class="btn btn-primary btn-lg text-3 font-weight-semibold px-4 py-3">Get Started Now!</a>
+									<div class="learn-more">or <a href="how_it_works.cfm">learn more.</a></div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+
+        <div id="border-bt"  class="container pt-2">
+          <div class="row mt-lg-4 pb-5">
+            <h2 class="text-center p-3"> <span class="highlighted-word text-color-primary font-weight-semibold text-5">Why you choose us</span></h2>
+            <div class="col-lg-4 appear-animation animated fadeInLeftShorter appear-animation-visible" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="300" style="animation-delay: 300ms;">
+              <div class="feature-box feature-box-style-2">
+                <div class="feature-box-icon">
+                  <i class="fas fa-plane"></i>
+                </div>
+                <div class="feature-box-info">
+                  <h4 class="font-weight-bold mb-2">Website Performance</h4>
+                  <p>We strive to optimize each website template for speed and performance! We understand that your website must be as fast as possible and that you have the need for speed!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" style="animation-delay: 100ms;">
+              <div class="feature-box feature-box-style-2">
+                <div class="feature-box-icon">
+                  <i class="fa fa-refresh" aria-hidden="true"></i>
+                </div>
+                <div class="feature-box-info">
+                  <h4 class="font-weight-bold mb-2">Regular Template Updates</h4>
+                  <p>Updating your generated website template is extremely easy. The selection of website templates that we offer have lifetime regular updates. We have the ability to notify
+                  you when updates are available are ready to download.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300" style="animation-delay: 300ms;">
+              <div class="feature-box feature-box-style-2">
+                <div class="feature-box-icon">
+                  <i class="fa-solid fa-dollar-sign"></i>
+                </div>
+                <div class="feature-box-info">
+                  <h4 class="font-weight-bold mb-2">Save Time and Money</h4>
+                  <p>The process to generate a new template usually takes about 10 minutes of your time. We can save you thousands of dollars and hundreds of hours of development time. Get started today!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+			
+
+
+                <section id="new-arrivals" class="new-arrivals">
+                    <div class="container">
+                        <div class="text-center mb-4">
+                          <div class="footer-ribbon">
+                            <span>Our latest items</span>
+                          </div>
+                            <h2 style="color: rgb(9, 30, 66);" class="section-title px-5"><span class=" text-5 d-flex justify-content-center"> <span class="sp_circle"></span>Puro 100% – crudo, non raffinato, biologico <span class="sp_circle"></span></span></h2>
+                        </div>
+                        <div class="new-arrivals-content">
+                            <div class="row">
+                                <div  class="col-sm-6 col-lg-3 mb-4 mb-lg-0 p-3 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" style="animation-delay: 100ms;">
+                                    <span id="sp" class="thumb-info thumb-info-hide-wrapper-bg">
+                                        <span class="thumb-info-wrapper">
+                                            <a href="about-me.html">
+                                                <img src="g1.jpg" class="img-fluid" alt="">
+                                                <span class="thumb-info-title">
+                                                    <i style="display: block;" class="fa-sharp fa-solid fa-cart-plus text-center"></i> 
+                                                    <span class="thumb-info-type">$65</span>
+                                                </span>
+                                            </a>
+                                        </span>
+                                        <span class="thumb-info-caption">
+                                            <span class="ms" >Burro di Karité puro
+                                                </span>
+                                                <p>Contenuto: 90 g 15,44 € / 100 g</p>
+
+                                        </span>
+                                    </span>
+                                </div>
+                                <div  class="col-sm-6 col-lg-3 mb-4 mb-lg-0 p-3 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" style="animation-delay: 100ms;">
+                                    <span id="sp"  class="thumb-info thumb-info-hide-wrapper-bg">
+                                        <span class="thumb-info-wrapper">
+                                            <a href="about-me.html">
+                                                <img src="g1.jpg" class="img-fluid" alt="">
+                                                <span class="thumb-info-title">
+                                                    <i style="display: block;" class="fa-sharp fa-solid fa-cart-plus text-center"></i> 
+                                                    <span class="thumb-info-type">$65</span>
+                                                </span>
+                                            </a>
+                                        </span>
+                                        <span class="thumb-info-caption">
+                                            <span class="ms" >Burro di Karité puro
+                                                </span>
+                                                <p>Contenuto: 90 g 15,44 € / 100 g</p>
+
+                                        </span>
+                                    </span>
+                                </div>
+                                <div  class="col-sm-6 col-lg-3 mb-4 mb-lg-0 p-3 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" style="animation-delay: 100ms;">
+                                    <span id="sp" class="thumb-info thumb-info-hide-wrapper-bg">
+                                        <span class="thumb-info-wrapper">
+                                            <a href="about-me.html">
+                                                <img src="g1.jpg" class="img-fluid" alt="">
+                                                <span class="thumb-info-title">
+                                                    <i style="display: block;" class="fa-sharp fa-solid fa-cart-plus text-center"></i> 
+                                                    <span class="thumb-info-type">$65</span>
+                                                </span>
+                                            </a>
+                                        </span>
+                                        <span class="thumb-info-caption">
+                                            <span class="ms" >Burro di Karité puro
+                                                </span>
+                                                <p>Contenuto: 90 g 15,44 € / 100 g</p>
+
+                                        </span>
+                                    </span>
+                                </div>
+                                <div  class="col-sm-6 col-lg-3 mb-4 mb-lg-0 p-3 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" style="animation-delay: 100ms;">
+                                    <span id="sp" class="thumb-info thumb-info-hide-wrapper-bg">
+                                        <span class="thumb-info-wrapper">
+                                            <a href="about-me.html">
+                                                <img src="g1.jpg" class="img-fluid" alt="">
+                                                <span class="thumb-info-title">
+                                                    <i style="display: block;" class="fa-sharp fa-solid fa-cart-plus text-center"></i> 
+                                                    <span class="thumb-info-type">$65</span>
+                                                </span>
+                                            </a>
+                                        </span>
+                                        <span class="thumb-info-caption">
+                                            <span class="ms" >Burro di Karité puro
+                                                </span>
+                                                <p>Contenuto: 90 g 15,44 € / 100 g</p>
+
+                                        </span>
+                                    </span>
+                                </div>
+                                <div  class="col-sm-6 col-lg-3 mb-4 mb-lg-0 p-3 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" style="animation-delay: 100ms;">
+                                    <span id="sp" class="thumb-info thumb-info-hide-wrapper-bg">
+                                        <span class="thumb-info-wrapper">
+                                            <a href="about-me.html">
+                                                <img src="g1.jpg" class="img-fluid" alt="">
+                                                <span class="thumb-info-title">
+                                                    <i style="display: block;" class="fa-sharp fa-solid fa-cart-plus text-center"></i> 
+                                                    <span class="thumb-info-type">$65</span>
+                                                </span>
+                                            </a>
+                                        </span>
+                                        <span class="thumb-info-caption">
+                                            <span class="ms" >Burro di Karité puro
+                                                </span>
+                                                <p>Contenuto: 90 g 15,44 € / 100 g</p>
+
+                                        </span>
+                                    </span>
+                                </div>
+                                <div  class="col-sm-6 col-lg-3 mb-4 mb-lg-0 p-3 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" style="animation-delay: 100ms;">
+                                    <span id="sp" class="thumb-info thumb-info-hide-wrapper-bg">
+                                        <span class="thumb-info-wrapper">
+                                            <a href="about-me.html">
+                                                <img src="g1.jpg" class="img-fluid" alt="">
+                                                <span class="thumb-info-title">
+                                                    <i style="display: block;" class="fa-sharp fa-solid fa-cart-plus text-center"></i> 
+                                                    <span class="thumb-info-type">$65</span>
+                                                </span>
+                                            </a>
+                                        </span>
+                                        <span class="thumb-info-caption">
+                                            <span class="ms" >Burro di Karité puro
+                                                </span>
+                                                <p>Contenuto: 90 g 15,44 € / 100 g</p>
+
+                                        </span>
+                                    </span>
+                                </div>
+                                <div  class="col-sm-6 col-lg-3 mb-4 mb-lg-0 p-3 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" style="animation-delay: 100ms;">
+                                    <span id="sp" class="thumb-info thumb-info-hide-wrapper-bg">
+                                        <span class="thumb-info-wrapper">
+                                            <a href="about-me.html">
+                                                <img src="g1.jpg" class="img-fluid" alt="">
+                                                <span class="thumb-info-title">
+                                                    <i style="display: block;" class="fa-sharp fa-solid fa-cart-plus text-center"></i> 
+                                                    <span class="thumb-info-type">$65</span>
+                                                </span>
+                                            </a>
+                                        </span>
+                                        <span class="thumb-info-caption">
+                                            <span class="ms" >Burro di Karité puro
+                                                </span>
+                                                <p>Contenuto: 90 g 15,44 € / 100 g</p>
+
+                                        </span>
+                                    </span>
+                                </div>
+                                <div  class="col-sm-6 col-lg-3 mb-4 mb-lg-0 p-3 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" style="animation-delay: 100ms;">
+                                    <span id="sp" class="thumb-info thumb-info-hide-wrapper-bg">
+                                        <span class="thumb-info-wrapper">
+                                            <a href="about-me.html">
+                                                <img src="g1.jpg" class="img-fluid" alt="">
+                                                <span class="thumb-info-title">
+                                                    <i style="display: block;" class="fa-sharp fa-solid fa-cart-plus text-center"></i> 
+                                                    <span class="thumb-info-type">$65</span>
+                                                </span>
+                                            </a>
+                                        </span>
+                                        <span class="thumb-info-caption">
+                                            <span class="ms" >Burro di Karité puro
+                                                </span>
+                                                <p>Contenuto: 90 g 15,44 € / 100 g</p>
+
+                                        </span>
+                                    </span>
+                                </div>
+                          
+
+                            </div>
+                        </div>
+                    </div><!--/.container-->
+                
+                </section>
+
+                
+
+
+
+
+				<div class="section section-primary border-top-0 mb-0">
+					<div class="container">
+						<div class="row counters counters-sm counters-text-light">
+							<div class="col-sm-6 col-lg-3 mb-5 mb-lg-0">
+								<div class="counter">
+									<strong data-to="7000" data-append="+">0</strong>
+									<label class="opacity-5 text-4 mt-1">People Using Our Templates</label>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3 mb-5 mb-lg-0">
+								<div class="counter">
+									<strong data-to="2200" data-append="+">0</strong>
+									<label class="opacity-5 text-4 mt-1">Answered Tickets</label>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3 mb-5 mb-sm-0">
+								<div class="counter">
+									<strong data-to="6800" data-append="+">0</strong>
+									<label class="opacity-5 text-4 mt-1">Happy Customers</label>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3">
+								<div class="counter">
+									<strong data-to="3000" data-append="+">0</strong>
+									<label class="opacity-5 text-4 mt-1">Development Hours</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+                
+
+                <div class="comments">       
+                    <div class="container">
+                        <div class="tranee2">
+                            <div class="padding">
+                                <div class="pragraph">
+                                    <h2 class="highlighted-word text-color-primary font-weight-semibold ">Get better skin</h2>
+                                    <p>Black StartUps is more than a business platform, it is a networking community which provides nurturing and support for your business from concept to maturity as well as ongoing business management services.</p>
+                                    <button>Read More</button>
+                                </div>
+                
+                                <div class="image-holder">
+                                    <img src="d2.png" alt="" width="180" height="150">
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+
+                
+                <div class="comments">       
+                    <div class="container">
+                        <div class="tranee2">
+                            <div class="padding">
+                              <div class="circle"></div>
+                                <div class="image-holder">
+                                    <img src="d1.png" alt="" width="180" height="150">
+                                </div>
+                                <div class="pragraph">
+                                    <h2 class="highlighted-word text-color-primary font-weight-semibold ">What do the doctors say?</h2>
+                                    <p>Black StartUps is more than a business platform, it is a networking community which provides nurturing and support for your business from concept to maturity as well as ongoing business management services.</p>
+                                    <button>Read More</button>
+                                </div>
+                
+
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+
+
+
+        
+
+                
+
+				<section id="getStarted" class="call-to-action call-to-action-default with-button-arrow content-align-center call-to-action-in-footer call-to-action-in-footer-margin-top">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-9 col-lg-9">
+								<div class="call-to-action-content">
+									<h2 class="font-weight-normal text-6 mb-0 text-white">We have <strong class="font-weight-extra-bold">everything</strong> you need to create an <strong class="font-weight-extra-bold">awesome</strong> website!</h2>
+									<p style="color: rgb(203, 213, 219);" class="mb-0">The Best Website Generator Ever</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-lg-3 mt-4">
+								<div class="call-to-action-btn">
+									<a href="" target="_blank" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3">Get Started Now</a>
+
+                                    
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+
+
+
+			</div>
+
+			<footer id="footer">
+				<div class="container">
+					<div class="footer-ribbon">
+						<span>Get in Touch</span>
+					</div>
+					<div class="row py-5 my-4">
+						<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+							<h5 class="text-3 mb-3">FREE WEBSITE GENERATION SWEEPSTAKES</h5>
+							<p class="pe-1">Want to have a chance at generating a free website? Enter your e-mail address and subscribe to our sweepstakes. Good luck!</p>
+							<div class="alert alert-success d-none" id="newsletterSuccess">
+								<strong>Success!</strong> You've been added to our email list.
+							</div>
+							<div class="alert alert-danger d-none" id="newsletterError"></div>
+							<form id="newsletterForm" action="sweepstakes.cfm?submit=1" method="POST" class="me-4 mb-3 mb-md-0">
+								<div class="input-group input-group-rounded">
+									<input class="form-control form-control-sm bg-light" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="email">
+									<button style="background-color: #0088CC; font-size: 15px;" class="btn btn-light text-white" type="submit"><strong>GO!</strong></button>
+								</div>
+							</form>
+						</div>
+						<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+							<h5 class="text-3 mb-3">LATEST ANNOUNCEMENTS</h5>
+							<div id="tweet">
+								<p>Check out our social media websites for the latest announcements including free website credits that can be used to generate templates! In addition, we occasionally offer free memberships several times per year!</p>
+							</div>
+                            <div class="fb-like" data-href="" data-width="" data-layout="button" data-action="like" data-size="large" data-share="true"></div>
+						</div>
+						<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+							<div class="contact-details">
+								<h5 class="text-3 mb-3">CONTACT US</h5>
+								<ul class="list list-icons list-icons-lg">
+									<li class="mb-1"><i class="far fa-dot-circle text-color-primary"></i><p class="m-0">14 london</p></li>
+									<li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i><p class="m-0"><a href="tel:3012685375">35686753855</a></p></li>
+									<li class="mb-1"><i class="far fa-envelope text-color-primary"></i><p class="m-0"><a href="mailto:ahmed.com">ahmed.com</a></p></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-2">
+							<h5 class="text-3 mb-3">FOLLOW US</h5>
+							<ul class="social-icons">
+								<li class="social-icons-facebook"><a href="https://www.facebook.com/AutomateWebsitescom-106605272202973" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+								<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+								<li class="social-icons-linkedin"><a href="https://www.linkedin.com/in/seniorcoldfusiondeveloper/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container py-2">
+						<div class="row py-4">
+							<div class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
+								<p>&copy; Copyright 2010-2022. All Rights Reserved.</p>
+							</div>
+							<div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
+								<nav id="sub-menu">
+									<ul>
+										<li><i class="fas fa-angle-right"></i><a href="faq.cfm" class="ms-1 text-decoration-none"> FAQ's</a></li>
+										<li><i class="fas fa-angle-right"></i><a href="sitemap.cfm" class="ms-1 text-decoration-none"> Sitemap</a></li>
+										<li><i class="fas fa-angle-right"></i><a href="contact_us.cfm" class="ms-1 text-decoration-none"> Contact Us</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		
+
+		<!-- Vendor -->
+		<script src="vendor/js/plugins.min.js"></script>
+
+		<!-- Theme Base, Components and Settings -->
+		<script src="vendor/js/theme.js"></script>
+
+
+
+		<!-- Theme Initialization Files -->
+		<script src="vendor/js/theme.init.js"></script>
+
+
+
+        <script>
+function getTimeRemaining(endtime) {
+  const total = Date.parse(endtime) - Date.parse(new Date());
+  const seconds = Math.floor((total / 1000) % 60);
+  const minutes = Math.floor((total / 1000 / 60) % 60);
+  const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
+  const days = Math.floor(total / (1000 * 60 * 60 * 24));
+  
+  return {
+    total,
+    days,
+    hours,
+    minutes,
+    seconds
+  };
+}
+
+function initializeClock(id, endtime) {
+  const clock = document.getElementById(id);
+  const daysSpan = clock.querySelector('.days');
+  const hoursSpan = clock.querySelector('.hours');
+  const minutesSpan = clock.querySelector('.minutes');
+  const secondsSpan = clock.querySelector('.seconds');
+
+  function updateClock() {
+    const t = getTimeRemaining(endtime);
+
+    daysSpan.innerHTML = t.days;
+    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+    if (t.total <= 0) {
+      clearInterval(timeinterval);
+    }
+  }
+
+  updateClock();
+  const timeinterval = setInterval(updateClock, 1000);
+}
+
+const deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+initializeClock('clockdiv', deadline);
+        </script>
+
+	</body>
+</html>
